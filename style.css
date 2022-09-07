@@ -1,0 +1,261 @@
+.banner{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    
+
+    background-size: 100% 100%;
+
+    animation-name: banner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes banner{
+    0%, 30%{
+        background-image: url(images/MUNDO.jpg);
+    }
+    35%, 65%{
+        background-image: url(images/PANTALLAS.jpg);
+    }
+    70%, 100%{
+        background-image: url(images/LAPTOP.jpg);
+    }
+}
+body{
+    background-color: beige;
+}
+nav{
+    background-color:beige;
+    height: 11%;
+    width: 100%;
+    
+}
+
+.logo img{
+     padding: 20px 50px;
+     height: 40px;
+     width: 60px;
+
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin-right: 20%;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+nav ul li a{
+    color:coral;
+    font-size: 20px;
+    padding: 7px 13px;
+}
+
+.titulo{
+    position: absolute;
+    margin-left: 55%;
+    line-height: 350px;
+    font-size: 50px;
+    color: aliceblue;
+}
+ 
+.texto{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.title{
+    font-size: 30px;
+}
+
+.title2{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+.servi{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.section-container{
+   
+    height: 450px;
+    width: 300px;
+    position: absolute; 
+    right: 50px; 
+    margin-right: 10%;
+} 
+
+.crecer{
+    margin-left: 15%;
+    font-size: 20px;
+}
+
+.crecer a{
+    font-size: 20px;
+    color: black;
+    border: 10px solid coral;
+    background-color: coral;
+    position: relative;
+    bottom: 10px;
+    margin-left: 7%;
+}
+
+
+/*Seccion servicio*/ 
+.service-container{
+ width: 60%;
+ margin: 0px auto;
+ 
+}
+#service ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.service-container img{
+    height: 80px;
+    
+}
+
+/*Sección footer*/ 
+
+.footer-container{
+    color: aliceblue;
+    background-color: black;
+}
+
+/*Seccion img equipo*/ 
+.foto-equipo{
+    width: 400px;
+    height: 300px;
+    margin-left: 15%;
+    display: inline-block;
+    margin-top: 3%;
+}
+
+
+/*Sección clientes*/
+.clientes{
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo-pinup{
+    width: 300px;
+    display: inline;
+}
+.titulo-pinup{
+    margin-left: 2%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 6%;
+    
+    
+}
+
+.descripcion-pinup{
+    margin-left: 2%;
+    display: inline;
+    position: absolute;
+    margin-top: 8%;
+
+}
+
+.texto-elerginos{
+    text-align: center;
+}
+
+
+/*BOTON whatssap*/
+.container-boton{ 
+position: fixed;
+margin-left: 95%;
+margin-top: 7%;
+}
+.boton{
+    width: 35px;
+    height: auto;
+}
+
+/*FORMULARIO*/
+.fom-registro{
+    width: 300px;
+    background-color: cadetblue;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 35%;
+     box-shadow: 7px 13px 37px cadetblue;
+     margin-bottom: 5%;
+     margin: auto;
+     
+}
+
+.fom-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 90%;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.fom-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.fom-registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.fom-registro .boton{
+width: 100%;
+background-color: blue;
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px;
+}
+
+#contacto{
+    display: inline-block;
+    text-align: center;
+    margin-left: 15%;
+    
+}
+
+#contacto .contacto-titulo{
+    font-size: 30px;
+    
+}
+
+#contacto .texto-contacto{
+    text-align: center;
+}
